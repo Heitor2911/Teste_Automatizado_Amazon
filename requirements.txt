@@ -1,0 +1,25 @@
+Projeto feito no VSCode, utilizando Python e Selenium
+
+Criando ambiente virtual com Python ( Utilize preferencialmente versões acima da 3.0)
+
+
+Criando Ambiente:
+    Python -m venv –Nome Ambiente-
+
+Entrando no ambiente:
+    .\-Nome Ambiente-\Scripts\activate.ps1
+
+Instalando dependências:
+    pip install selenium 
+    pip install pytest
+
+Preparando para inicializar os testes
+    import time
+
+	from selenium import webdriver
+	from selenium.webdriver.common.by import By
+	from selenium.webdriver.support.ui import WebDriverWait
+	from selenium.webdriver.support import expected_conditions as EC
+
+
+
