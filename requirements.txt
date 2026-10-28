@@ -22,4 +22,8 @@ Preparando para inicializar os testes
 	from selenium.webdriver.support import expected_conditions as EC
 
 
+Integrantes Projeto
+Heitor Lacourt
+Mateus Srocinski
+Gustavo Silveira Correa
 
